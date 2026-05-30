@@ -4,8 +4,7 @@ import requests
 import pandas as pd
 import re
 
-API_BASE = "http://localhost:8000"
-
+API_BASE = "https://bi-agent-production.up.railway.app"
 st.set_page_config(
     page_title="NEXUS BI",
     page_icon="⬡",
