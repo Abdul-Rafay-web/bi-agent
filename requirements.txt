@@ -6,7 +6,7 @@ pydantic==2.10.4
 pydantic-settings==2.7.0
 mysql-connector-python==9.1.0
 langchain-groq==0.2.3
-langchain-core==0.3.28
+langchain-core
 sqlglot==26.2.1
 
 # Frontend
