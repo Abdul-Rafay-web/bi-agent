@@ -1,6 +1,6 @@
 from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage, SystemMessage
-from .config import settings
+from config import settings
 
 model = ChatGroq(
     model_name=settings.GROQ_MODEL,
