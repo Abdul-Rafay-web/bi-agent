@@ -4,9 +4,9 @@ from pydantic import BaseModel
 from typing import Optional
 import uvicorn
 
-from .llm import generate_sql, regenerate_sql, narrate_results
-from .validator import classify_intent, validate_sql, clean_sql, add_limit
-from .executor import execute_sql
+from llm import generate_sql, regenerate_sql, narrate_results
+from validator import classify_intent, validate_sql, clean_sql, add_limit
+from executor import execute_sql
 
 app = FastAPI(title="BI Agent API", version="1.0.0")
 
