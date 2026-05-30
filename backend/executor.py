@@ -1,6 +1,6 @@
 import mysql.connector
 from mysql.connector import pooling
-from .config import settings
+from config import settings
 
 connection_pool = pooling.MySQLConnectionPool(
     pool_name="bi_agent_pool",
