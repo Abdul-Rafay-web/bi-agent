@@ -5,9 +5,9 @@ python-dotenv==1.0.1
 pydantic==2.10.4
 pydantic-settings==2.7.0
 mysql-connector-python==9.1.0
-langchain-groq==0.2.3
+langchain-groq
 langchain-core
-sqlglot==26.2.1
+sqlglot
 
 # Frontend
 streamlit==1.41.1
