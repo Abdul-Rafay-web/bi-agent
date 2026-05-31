@@ -2,15 +2,17 @@ import mysql.connector
 from mysql.connector import pooling
 from config import settings
 
-# connection_pool = pooling.MySQLConnectionPool(
-#     pool_name="bi_agent_pool",
-#     pool_size=5,
-#     host=settings.DB_HOST,
-#     user=settings.DB_USER,
-#     password=settings.DB_PASSWORD,
-#     database=settings.DB_NAME,
-#     connect_timeout=10
-# )
+
+
+connection_pool = pooling.MySQLConnectionPool(
+    pool_name="bi_agent_pool",
+    pool_size=5,
+    host=settings.DB_HOST,
+    user=settings.DB_USER,
+    password=settings.DB_PASSWORD,
+    database=settings.DB_NAME,
+    connect_timeout=10
+)
 
 
 def execute_sql(sql: str) -> tuple[list, list]:
