@@ -8,6 +8,7 @@ connection_pool = pooling.MySQLConnectionPool(
     pool_name="bi_agent_pool",
     pool_size=5,
     host=settings.DB_HOST,
+    port=settings.DB_PORT,
     user=settings.DB_USER,
     password=settings.DB_PASSWORD,
     database=settings.DB_NAME,
